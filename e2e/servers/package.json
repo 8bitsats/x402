@@ -1,0 +1,19 @@
+{
+  "name": "x402-solana-cdp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "create-wallet": "node solana-cdp-wallet.js",
+    "server-wallet": "node solana-server-wallet.js",
+    "test": "node test-solana-setup.js"
+  },
+  "dependencies": {
+    "@coinbase/cdp-sdk": "^1.38.1",
+    "@solana/web3.js": "^1.95.8",
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0"
+  }
+}
